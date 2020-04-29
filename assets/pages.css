@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+    color: black;
+}
+footer{
+    color: white;
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+
+#fashion{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#mainNav{
+    padding: 15px;
+    background-color: rgb(92, 77, 221);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  #grid1{
+      text-align: right;
+  }
+
+  #grid2{
+      text-align: left;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 10px;
+    margin-top: 150px;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .column img {
+    margin-top: 12px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
